@@ -8,6 +8,20 @@ public class ThisDetail {
 }
 
 class T{
+
+    public T(){
+        //如果要在一个构造器访问另一个构造器必须在第一句
+        this("woshinibaba",1);
+        System.out.println("默认构造器");
+
+    }
+
+    public T(String name,int age){
+        System.out.println("String name,int age构造器被调用");
+    }
+
+
+
     public void f1(){
         System.out.println("f1方法");
     }
