@@ -1,12 +1,12 @@
 public class VarParameter01 {
     public static void main(String[] args) {
-        HspMethod hspMethod = new HspMethod();
+        GshMethod hspMethod = new GshMethod();
         System.out.println(hspMethod.sum(20,21));
 
     }
 }
 
-class HspMethod {
+class GshMethod {
     public int sum(int n1, int n2) {
         return n1 + n2;
     }
