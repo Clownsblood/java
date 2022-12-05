@@ -3,10 +3,15 @@ package com.gaogao.extend_;
 public class Sub extends Base {
 //    int n3 = 300;
 
-
+    public Sub(String name,int age){
+        //想在调用这个构造器的时候调用父类的无参构造器
+        super();//调用父类的无参构造器，或者不写，默认调用无参构造器
+        System.out.println("构造器Sub(String name,int age)被调用");
+    }
     public Sub() {
         //构造器
         super(10);//父类没有默认构造器，必须使用super()指定使用哪一个构造器
+        //super和this必须都在第一句，所以super和this不能共存
         System.out.println("sub()构造器被调用");
     }
 

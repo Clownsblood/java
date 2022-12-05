@@ -5,6 +5,8 @@ public class ExtendsDetail {
         Sub sub = new Sub();
 //        sub.sayOk();
 
+        Sub sub1 = new Sub("name" ,20);
+
 
     }
 }

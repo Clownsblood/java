@@ -11,11 +11,11 @@ public class Base {
     }
 
 
-    //把默认构造器注释掉，我们可以看到在sub.java中构造器位置报错了，所以我们应该使用super(10)在super中指定使用哪一个父类的构造器
-//    public Base(){
-//
-//        System.out.println("Base()默认构造器被调用");
-//    }
+    //如果把默认构造器注释掉，我们可以看到在sub.java中构造器位置报错了，所以我们应该使用super(10)在super中指定使用哪一个父类的构造器
+    public Base(){
+
+        System.out.println("Base()默认构造器被调用");
+    }
     public Base(int a){
         //有参构造器
         System.out.println("Base(int a)被调用了");
