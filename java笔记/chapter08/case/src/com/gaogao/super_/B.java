@@ -14,6 +14,11 @@ public class B extends A{
         //
         cal();//找calc方法时，顺序是，先找本类，如果有，则调用，如果没有，
         // 则找父类（并且可调用则调用，如果没有则继续向上直到Object）
+        this.cal();//等价cal();
+        super.cal();//super.cal();会直接跳过本类去寻找父类，其他规则一样
+        
+
+
     }
 
 
