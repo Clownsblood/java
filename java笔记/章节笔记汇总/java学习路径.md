@@ -1,11 +1,5 @@
 # [Java 学习路线](https://luxian.yupi.icu/#/roadmap/Java学习路线?id=java-学习路线)
 
-> Java 学习路线一条龙版 by 程序员鱼皮
-
-💂 + 💻 = 👴🏽
-
-建议先观看视频导读：https://www.bilibili.com/video/BV1Qf4y1K7ff/
-
 ## [大纲](https://luxian.yupi.icu/#/roadmap/Java学习路线?id=大纲)
 
 ![image-20211127235325557](https://qiniuyun.code-nav.cn/img/image-20211127235325557.png)
